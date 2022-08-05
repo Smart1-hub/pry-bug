@@ -54,7 +54,7 @@ def decode_word(text)
   array = text.split
   word_array = []
   array.each { |letter| word_array.push(decode_char(letter)) }
-  word_array.join
+ 
 end
 
 # Create a method to decode the entire message in Morse code, takes a string parameter,
